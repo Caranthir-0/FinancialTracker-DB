@@ -103,8 +103,3 @@ requirements.txt
 - Package & publish to PyPI (`pip install fintrackdb`)
 - Add more ratios & filters
 - Optional text UI (TUI) enhancement
-
----
-
-## 📝 License
-MIT © Konrad
