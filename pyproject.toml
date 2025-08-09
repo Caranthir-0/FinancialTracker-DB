@@ -1,0 +1,19 @@
+[project]
+name = "fintrackdb"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "CLI investor DB with ratios and top-10 listings"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E","F","I","UP","B"]
+exclude = ["venv",".venv",".git","__pycache__"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
