@@ -1,7 +1,4 @@
 # FinTrackDB
-
-[![CI](https://img.shields.io/github/actions/workflow/status/Caranthir-0/fintrackdb/python-tests.yml?branch=main)](../../actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 
 CLI tool to manage a small investor database (SQLite), seed from CSV, and compute key ratios (P/E, P/S, P/B, ROE, ROA, ND/EBITDA, L/A).  
